@@ -1,3 +1,18 @@
 
 
+env/
 env_rl/
+.venv/
+
+# Ignorar archivos de configuración y logs
+__pycache__/
+*.py[cod]
+*.log
+
+# Ignorar archivos de dependencias
+*.sqlite3
+.DS_Store
+
+# Ignorar configuraciones de IDEs
+.idea/
+.vscode/
